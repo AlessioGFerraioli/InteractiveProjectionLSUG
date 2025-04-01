@@ -32,11 +32,11 @@ void ofApp::setup() {
 	// setup the gui
 	gui.setup();
 	// setup the overallSpeed value with name speed and initial value 1, min value 0 and max value 3
-	gui.add(overallSpeed.setup("speed", 1, 0, 3));
+	gui.add(overallSpeed.setup("speed", 0.4, 0, 3));
 	// and noiseAmount slider
-	gui.add(noiseAmount.setup("noise", 0.6, 0, 3));
+	gui.add(noiseAmount.setup("noise", 0.7, 0, 3));
 	// and trail slider
-	gui.add(trail.setup("trail", 50, 0, 85));
+	gui.add(trail.setup("trail", 22, 0, 85));
 	// threshold
 	gui.add(threshold.setup("threshold", 80, 0, 255));
 	// button for learning the background
@@ -46,7 +46,7 @@ void ofApp::setup() {
 	// buttonn to change forces from repel or attractive
 	gui.add(repelOrAttract.setup("repulsive force", false));
 	// slider for intensity of force
-	gui.add(forceIntensity.setup("force intensity", 0.5, 0, 1.5));
+	gui.add(forceIntensity.setup("force intensity", 1, 0, 1.5));
 
 
 	// create a certain number of particle
@@ -71,7 +71,7 @@ void ofApp::setup() {
 	}
 
 	// setup the logo particle
-	p[0].setup("lsug-icon.png");
+	p[0].setup("lsug.png");
 
 }
 
