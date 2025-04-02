@@ -1,4 +1,5 @@
 # InteractiveProjectionLSUG
+ ![App preview](preview.jpg)
 
 An interactive graphic to be projected during music shows and live installation. 
 The graphic is composed of a particle systems with three particle types, each with a different icon.
@@ -17,4 +18,4 @@ This project was made with [openFrameworks](https://openframeworks.cc/), and it'
 
 ## Preview
 
- ![App preview](preview.jpg)
+ ![App preview](preview2.jpg)
