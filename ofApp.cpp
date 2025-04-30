@@ -31,6 +31,8 @@ void ofApp::setup() {
 
 	// setup the gui
 	gui.setup();
+	// full screen toggle
+	//gui.add(fullScreen.setup("full screen", false));
 	// setup the overallSpeed value with name speed and initial value 1, min value 0 and max value 3
 	gui.add(overallSpeed.setup("speed", 0.4, 0, 3));
 	// and noiseAmount slider
@@ -78,6 +80,8 @@ void ofApp::setup() {
 
 //--------------------------------------------------------------
 void ofApp::update() {
+
+
 
 	// print the frame rate
 	ofSetWindowTitle("FPS:" + ofToString(ofGetFrameRate()));

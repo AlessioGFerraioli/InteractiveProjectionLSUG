@@ -62,5 +62,5 @@ public:
 	ofxToggle showCV; // show and not show the webcam and the threshold
 	ofxToggle repelOrAttract; // button to change the webcam interation from repel to attract
 	ofxFloatSlider forceIntensity; // intensity of the force determined by the webcam
-
+	//ofxToggle fullScreen; // button to toggle on/off full screen
 };
